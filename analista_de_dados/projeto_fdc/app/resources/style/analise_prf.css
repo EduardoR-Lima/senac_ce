@@ -1,0 +1,25 @@
+body {
+    background-color: #020659;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Estilos específicos para gráficos */
+.plotly-graph-paper {
+    background-color: transparent;
+}
+
+.plotly-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+

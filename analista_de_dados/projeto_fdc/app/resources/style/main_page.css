@@ -1,0 +1,106 @@
+:root {
+    font-size: 2.25vh;
+}
+
+
+.stMain {
+    overflow: hidden;
+}
+
+div.stMainBlockContainer {
+    padding-top: 3.75rem;
+}
+
+.st-key-mtop .stMarkdown {
+    text-align: center;
+}
+
+.st-key-mtop span[data-testid="stHeaderActionElements"] {
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+/* dash-selection */
+.st-key-dash-selection span[data-testid="stHeaderActionElements"] {
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+.st-key-dash-selection {
+    text-align: center;
+    background-color: #34495E;
+    border-radius: 10px;
+}
+
+.st-key-dash-selection [data-baseweb="button-group"] {
+    display: flex;
+    justify-content: center;
+}
+
+.st-key-pills [data-baseweb="button-group"] {
+    display: flex;
+    max-width: none !important;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 2rem;
+}
+
+.st-key-pills [data-baseweb="button-group"] button {
+    width: 12rem;
+}
+
+.st-key-pills [data-baseweb="button-group"] p {
+    font-size: 1rem;
+}
+
+.st-key-pills label[data-testid="stWidgetLabel"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+.stColumn:has(.st-key-dash-info) div[data-testid="stVerticalBlockBorderWrapper"] {
+    height: 31.5rem;
+    overflow-x: clip;
+}
+
+div[data-testid="stImage"], div[data-testid="stImageContainer"] {
+    width: 30vh !important;
+    align-items: center !important;
+}
+
+div[data-testid="stImage"] img {
+    width: 10vh !important;
+}
+
+div[data-testid="stImage"] [data-testid="stImageCaption"] {
+    width: auto !important;
+    font-size: 1rem !important;
+}
+
+.st-key-left span[data-testid="stHeaderActionElements"] {
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+.st-key-left [data-testid="stFullScreenFrame"] {
+    display: flex;
+    justify-content: center;
+}
+
+.st-key-right {
+    text-align: center;
+    align-items: center !important;
+}
+
+.st-key-right span[data-testid="stHeaderActionElements"] {
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+.st-key-right [data-testid="stFullScreenFrame"] {
+    display: flex;
+    justify-content: center;
+}

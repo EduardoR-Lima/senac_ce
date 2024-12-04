@@ -1,2 +1,6 @@
-# senac_aulas
-Projetos feitos em sala de aula durante o curso de Programador de Sistemas
+# senac_ce
+Repositório para armazenar projetos e demais arquivos desenvolvidos durante aulas na instituição Senac
+
+## Cursos
+- Programador de Sistemas
+- Analista de Dados

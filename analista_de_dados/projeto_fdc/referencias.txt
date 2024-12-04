@@ -1,0 +1,10 @@
+Logo senac:
+https://pt.m.wikipedia.org/wiki/Ficheiro:Senac_logo.svg
+
+Ícone de perfil:
+https://iconduck.com/icons/180867/profile-circle
+ <!> cor base foi alterada
+      - cor original: #292d32
+
+Dados dos municípios:
+https://github.com/kelvins/municipios-brasileiros/blob/main/json/municipios.json

@@ -1,0 +1,84 @@
+.stMain {
+    overflow: hidden;
+}
+
+div.stMainBlockContainer {
+    padding-top: 3.75rem;
+}
+
+PTY[cls_attr='Keys.CHART_1'] svg:has(.bglayer),
+PTY[cls_attr='Keys.CHART_2'] svg:has(.bglayer) {
+    background: #34495E !important;
+}
+
+PTY[cls_attr='Keys.CHART_1'] svg:has(.infolayer) .bg {
+    fill: #34495E !important;
+}
+
+PTY[cls_attr='Keys.RIGHT_SECTION']
+[data-testid="stVerticalBlockBorderWrapper"]:has(PTY[cls_attr='Keys.CHART_1']),
+PTY[cls_attr='Keys.RIGHT_SECTION']
+[data-testid="stVerticalBlockBorderWrapper"]:has(PTY[cls_attr='Keys.CHART_2']) {
+    background: #34495E;
+    border-color: #34495E;
+    border-radius: 1.5vh;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"]:has(PTY[cls_attr='Keys.LEFT_SECTION']) {
+    height: calc(50rem - 6.2rem);
+}
+
+
+[data-testid="stVerticalBlockBorderWrapper"]:has(PTY[cls_attr='Keys.RIGHT_SECTION']) {
+    height: calc(50rem - 6.2rem);
+}
+
+[data-testid='stColumn']:has(PTY[cls_attr='Keys.RIGHT_SIDE_BAR']) [data-testid="stVerticalBlockBorderWrapper"] {
+    height: calc(50rem);
+}
+
+[data-testid="stMetric"] {
+    background-color: #34495E;
+    border-radius: 1.5vh;
+    text-align: center;
+    padding: 5px;
+}
+
+[data-testid="stMetricLabel"] {
+    display: flex;
+    justify-content: center;
+}
+
+[data-testid="stMetricLabel"] div:has([data-testid="stMarkdownContainer"]) {
+    width: auto;
+}
+
+[data-testid="stTooltipIcon"] {
+    position: absolute;
+    left: calc(50% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+[data-testid="stMetricDelta"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-testid="stMetricDelta"] div {
+    width: auto;
+}
+
+[data-testid="stMetricDeltaIcon-Up"] {
+    margin-right: 5px;
+}
+
+PTY[cls_attr='Keys.RIGHT_SIDE_BAR'] .mapboxgl-map {
+    border-radius: 1.5vh;
+}
+
+PTY[cls_attr='Keys.RIGHT_SIDE_BAR'] .modebar {
+    top: 5px;
+    right: 10px !important;
+}
